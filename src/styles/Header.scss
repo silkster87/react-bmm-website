@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  aside {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+}
