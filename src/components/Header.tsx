@@ -9,6 +9,7 @@ export const Header = () => {
       <nav>
         <img src={bmmLogo} height="36px" width="36px"
           alt="Bromley Music Makers Logo" />
+        <p>Bromley Music Makers</p>
         <aside>
           <a href="#concerts">Concerts</a>
           <a href="#about">About</a>
