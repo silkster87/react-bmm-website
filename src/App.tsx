@@ -1,13 +1,13 @@
 import React from 'react'
 import './styles/App.scss'
 
-import { Header } from './components/Header'
+import { Banner, Header } from './components'
 
 function App () {
   return (
     <div className="App">
       <Header />
-      <main>BMM Website WIP</main>
+      <Banner />
     </div>
   )
 }
