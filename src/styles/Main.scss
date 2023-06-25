@@ -1,0 +1,34 @@
+@use 'colors' as colors;
+
+main {
+  color: white;
+  padding: 16px;
+  background-color: colors.$main-background-color;
+  border-radius: 16px;
+  border: 1px solid colors.$nav-highlighted-text;
+  margin-top: 16px;
+  padding: 48px 96px;
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-weight: 300;
+  color: colors.$nav-highlighted-text;
+  text-decoration: underline;
+}
+
+.join-bmm-btn {
+  background-color: colors.$nav-highlighted-text;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  a {
+    color: black !important;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  &:hover {
+    border: 1px solid white;
+  }
+}
