@@ -1,5 +1,6 @@
 @use 'colors' as colors;
 
+
 #banner {
   background-image: url('../assets/bmm_background.png');
   width: 100%;
@@ -27,11 +28,13 @@
     }
 
     .smallprint {
-      font-size: 1.2em;
+      font-size: 24px;
       color: colors.$nav-highlighted-text;
     }
   }
 }
+
+
 
 @media only screen and (max-width: 980px) {
   #banner {
@@ -39,8 +42,9 @@
     padding: 16px;
 
     p {
-      font-size: 1.2em;
+      font-size: 1.5em;
     }
+
   }
 }
 }
