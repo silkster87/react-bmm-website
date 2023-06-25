@@ -14,7 +14,10 @@ export const Main = () => {
       <br />
       <strong>Christ Church, Tudor Way, Petts Wood, Kent, BR5 1LH</strong>
       <br />
-      <iframe loading="lazy" src={googleMapsSrc} id="bmmMap" width="75%" height="400"></iframe>
+      <br />
+      <div className="map-container">
+        <iframe loading="lazy" src={googleMapsSrc} id="bmmMap" />
+      </div>
       <p>The annual membership subscription is <strong>£25</strong>{' (this is reduced to '}<strong>£10</strong>{' for students).'}</p>
       <p>Guests are welcome to attend concerts at a charge of <strong>£5</strong>.</p>
       <button className="join-bmm-btn">
