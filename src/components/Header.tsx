@@ -47,13 +47,9 @@ export const Header = () => {
         <aside className="links">
           {links()}
         </aside>
-        {showMenu && !showDropDown &&
+        {showMenu &&
           <button className="menu-btn" onClick={() => { setShowDropDown(prev => !prev) }}>
-            <MenuIcon sx={iconSizes} />
-          </button>}
-        {showDropDown &&
-          <button className="menu-btn" onClick={() => { setShowDropDown(prev => !prev) }}>
-            <CloseIcon sx={iconSizes} />
+            {!showDropDown ? <MenuIcon sx={iconSizes} /> : <CloseIcon sx={iconSizes} />}
           </button>
         }
       </nav>
