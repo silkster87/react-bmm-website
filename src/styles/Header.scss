@@ -65,12 +65,24 @@ a:hover {
   top: 40px;
   z-index: 1;
   background-color: colors.$background-color;
+  animation: fadeIn ease 2s;
   
   .links-dropdown-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    padding: 8px 0px 16px 0px
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
