@@ -10,14 +10,28 @@ main {
   padding: 48px 96px;
 
   p, strong, li {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   h2 {
     font-weight: 300;
-    font-size: 28px;
+    font-size: 36px;
     color: colors.$nav-highlighted-text;
     text-decoration: underline;
+  }
+
+  .concerts-container {
+    border-top: 1px solid colors.$nav-highlighted-text;
+    margin-top: 34px;
+    
+    p {
+      font-size: 24px;
+    }
+  }
+
+  .about-container {
+    border-top: 1px solid colors.$nav-highlighted-text;
+    margin-top: 34px;
   }
 }
 
@@ -46,4 +60,11 @@ main {
 #bmmMap {
   width: 100%;
   height: 400px;
+}
+
+@media only screen and (max-width: 980px) {
+  main {
+    padding: 48px;
+  }
+
 }
