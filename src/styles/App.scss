@@ -2,6 +2,12 @@
 
 .App {
   background-color: colors.$background-color;
-  padding: 8px 24px;
+  padding: 8px 108px;
   scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 980px) {
+  .App {
+    padding: 8px 56px;
+  }
 }
