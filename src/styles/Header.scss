@@ -22,13 +22,62 @@ nav {
   align-items: center;
   justify-content: space-between;
 
+  .logo-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
   aside {
     display: flex;
     flex-direction: row;
     gap: 24px;
 
-    a:hover {
-      color: colors.$nav-highlighted-text;
-    }
+  }
+}
+
+a:hover {
+  color: colors.$nav-highlighted-text;
+}
+
+.menu-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid colors.$nav-highlighted-text;
+  }
+}
+
+.dropdown-list-links {
+  display: absolute;
+  top: 40px;
+  z-index: 1;
+  background-color: colors.$background-color;
+  
+  .links-dropdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+
+
+@media only screen and (max-width: 980px) {
+  .links {
+    display: none;
   }
 }
