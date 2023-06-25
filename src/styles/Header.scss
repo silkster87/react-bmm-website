@@ -14,6 +14,7 @@ header {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   font-weight: 300;
   font-size: 14px;
+  color: white;
 }
 
 nav {
@@ -41,6 +42,10 @@ nav {
   }
 }
 
+a, a:visited {
+  color: white;
+}
+
 a:hover {
   color: colors.$nav-highlighted-text;
 }
@@ -54,6 +59,7 @@ a:hover {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  color: white;
 
   &:hover {
     border: 1px solid colors.$nav-highlighted-text;
