@@ -18,6 +18,8 @@ main {
     font-size: 36px;
     color: colors.$nav-highlighted-text;
     text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
   }
 
   .concerts-container {
@@ -32,13 +34,22 @@ main {
   .about-container {
     border-top: 1px solid colors.$nav-highlighted-text;
     margin-top: 34px;
+    text-align: justify;
+    text-justify: inter-word;
   }
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .join-bmm-btn {
   background-color: colors.$nav-highlighted-text;
   font-size: 16px;
-  border-radius: 8px;
+  border-radius: 16px;
+  padding: 8px 16px;
   border: none;
   a {
     color: black !important;
@@ -62,9 +73,39 @@ main {
   height: 400px;
 }
 
+.profiles-container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 64px;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.profile-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 64px;  
+  img {
+    border-radius: 16px;
+  }
+}
+
 @media only screen and (max-width: 980px) {
   main {
     padding: 48px;
   }
 
+  .map-container {
+    width: 100%;
+  }
+
+  .profile-row {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
 }
