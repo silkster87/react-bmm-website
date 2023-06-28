@@ -14,6 +14,7 @@ export const Header = () => {
   }
   const links = () => (
     <>
+      <a href="#" onClick={closeDropDown}>Home</a>
       <a href="#concerts" onClick={closeDropDown}>Concerts</a>
       <a href="#about" onClick={closeDropDown}>About</a>
       <a href="#contact" onClick={closeDropDown}>Contact</a>
