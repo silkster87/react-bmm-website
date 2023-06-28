@@ -4,5 +4,6 @@ export const links = {
   exampleProgramme: 'https://drive.google.com/file/d/1HPbwlRXAT3aqaUBBhO9PMXiFoFEjPNUM/view?usp=sharing',
   telMartinSharpe: 'tel:+4402084021947',
   emailBMM: 'mailto:bromleymusicmakers@gmail.com',
-  emailMusicSec: 'mailto:loisjones958@gmail.com'
+  emailMusicSec: 'mailto:loisjones958@gmail.com',
+  emailSilky: 'mailto:silky.ng@gmail.com'
 }
