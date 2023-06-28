@@ -1,8 +1,8 @@
 import React from 'react'
 
-import angela from '../assets/angela_carey.jpg'
 import martin from '../assets/martin_sharpe.jpg'
 import lois from '../assets/lois_jones.jpeg'
+import sara from '../assets/sara_williams_edit.jpg'
 import { links } from '../links/website-links'
 import '../styles/Main.scss'
 
@@ -75,15 +75,15 @@ export const Main = () => {
       <p>{'If you would like to know more about Bromley Music Makers please contact the secretary by email, or you may also contact the chairman by telephone. Alternatively, simply come along to our next concert. Guests are always welcome and you will have the opportunity to speak to the Secretary or one of the other committee members before the concert and during the interval.'}</p>
       <div className="profiles-container">
         <div className="profile-row">
-          <img alt="Martin Sharpe" src={martin} width="182px" height="251" />
+          <img alt="Martin Sharpe" src={martin} />
           <p>Chairman, Martin Sharpe - Tel: <a href={links.telMartinSharpe}>{'(020) 8402 1947'}</a></p>
         </div>
         <div className="profile-row">
-          <img alt="Angela Carey" src={angela} width="182px" height="251"/>
-          <p>Secretary, Angela Carey - Email: <a href={links.emailBMM}>bromleymusicmakers@gmail.com</a></p>
+          <img alt="Sara Williams" src={sara} />
+          <p>Secretary, Sara Williams - Email: <a href={links.emailBMM}>bromleymusicmakers@gmail.com</a></p>
         </div>
         <div className="profile-row">
-          <img alt="Lois Jones" src={lois} width="182px" height="251"/>
+          <img alt="Lois Jones" src={lois} />
           <p>Music Secretary, Lois Jones - Email: <a href={links.emailMusicSec}>loisjones958@gmail.com</a></p>
         </div>
       </div>
