@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles/App.scss'
 
-import { Banner, Header, Main } from './components'
+import { Banner, Footer, Header, Main } from './components'
 
 function App () {
   return (
@@ -9,6 +9,7 @@ function App () {
       <Header />
       <Banner />
       <Main />
+      <Footer />
     </div>
   )
 }
