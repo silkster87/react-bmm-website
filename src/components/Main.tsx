@@ -4,6 +4,7 @@ import martin from '../assets/martin_sharpe.jpg'
 import lois from '../assets/lois_jones.jpeg'
 import sara from '../assets/sara_williams_edit.jpg'
 import { links } from '../links/website-links'
+import { ImageCarousel } from '../components'
 import '../styles/Main.scss'
 
 export const Main = () => {
@@ -35,6 +36,7 @@ export const Main = () => {
         <li>Singers</li>
         <li>Pianists</li>
       </ul>
+      <ImageCarousel />
       <div className="concerts-container">
         <h2 id="concerts">
           <span>CONCERTS - 79th SEASON</span>
