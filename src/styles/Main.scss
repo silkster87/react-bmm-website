@@ -39,6 +39,14 @@ main {
     text-justify: inter-word;
     border-bottom: 1px solid colors.$nav-highlighted-text;
   }
+
+  .history-container {
+    p {
+      white-space: pre-line;
+    }
+    padding-bottom: 16px;
+    border-bottom: 1px solid colors.$nav-highlighted-text;
+  }
 }
 
 .btn-container {

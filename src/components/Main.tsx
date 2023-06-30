@@ -5,6 +5,7 @@ import lois from '../assets/lois_jones.jpeg'
 import sara from '../assets/sara_williams_edit.jpg'
 import { links } from '../links/website-links'
 import { ImageCarousel } from '../components'
+import { words } from '../words/wordContents'
 import '../styles/Main.scss'
 
 export const Main = () => {
@@ -21,14 +22,14 @@ export const Main = () => {
       <div className="map-container">
         <iframe loading="lazy" src={links.googleMapSrc} id="bmmMap" />
       </div>
-      <p>The annual subscription for most members is <strong>£25</strong>, but the subscription is waived for full-time students at music college. For former students and all other members aged 18-29 the subscription is £5. </p>
+      <p>The standard annual subscription is <strong>£25</strong>, but the subscription is waived for full-time students. For other members aged 18-29 the subscription is £5. </p>
       <p>Visitors are welcome to attend concerts at a charge of <strong>£5</strong>.</p>
       <div className="btn-container">
         <button className="join-bmm-btn">
           <a href={links.joinBMM} target="_blank" style={{ color: 'white' }} rel="noreferrer">Join BMM</a>
         </button>
       </div>
-      <p>Members have the opportunity to hear or take part in performances of classical music in the form of solo items or small ensembles. Music lovers are all welcome, including:</p>
+      <p>Members have the opportunity to hear or take part in performances of classical music in the form of solo items or small ensembles. All music lovers are welcome, including:</p>
       <ul>
         <li>Listening members</li>
         <li>Wind Players</li>
@@ -71,6 +72,10 @@ export const Main = () => {
         <p>{'Pianists who join us have the opportunity to perform as soloists, duettists or accompanists. Other stringed or wind instrumentalists may perform as soloists or as part of a trio, quartet or larger chamber ensemble. If you are a singer or instrumentalist and you need an accompanist, we’ll help you to find one from amongst the membership.'}</p>
         <p>{'One of the benefits of joining Bromley Music Makers is finding other like-minded musicians to play and perform with. Many musical partnerships and groups have been formed over the years in this way.'}</p>
         <p>{'Whether you play an instrument, sing or just enjoy listening to live classical music, you will receive a warm welcome at Bromley Music Makers. Musicians of all standards who are able to offer a well-prepared and enjoyable performance are always appreciated and well received. Why not come along to one of our concerts and find out for yourself what a rich and rewarding experience joining us would be.'}</p>
+      </div>
+      <div className="history-container" id="history">
+        <h2>History of BMM</h2>
+        <p>{words.historyOfBMM}</p>
       </div>
       <div className="contact-container" id="contact">
         <h2>Contact</h2>

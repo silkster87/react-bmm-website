@@ -17,6 +17,7 @@ export const Header = () => {
       <a href="#" onClick={closeDropDown}>Home</a>
       <a href="#concerts" onClick={closeDropDown}>Concerts</a>
       <a href="#about" onClick={closeDropDown}>About</a>
+      <a href="#history" onClick={closeDropDown}>History</a>
       <a href="#contact" onClick={closeDropDown}>Contact</a>
     </>
   )
