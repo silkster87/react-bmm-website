@@ -1,0 +1,26 @@
+.image-carousel {
+  margin: 32px 0px;
+
+  img {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+  }
+
+  .slick-next {
+    right: 20px;
+  }
+
+  .slick-prev {
+    left: 20px;
+    z-index: 1;
+  }
+
+}
+
+.dots-style {
+  button::before {
+    color: white !important;
+  }
+}
