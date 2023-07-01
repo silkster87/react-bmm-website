@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import bmmLogo from '../assets/bmm_logo.png'
+import bmmLogo from '../assets/bmm_logo_resized_png.png'
+import bmmLogoWebp from '../assets/bmm_logo_resized.webp'
 
 import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
@@ -17,6 +18,7 @@ export const Header = () => {
       <a href="#" onClick={closeDropDown}>Home</a>
       <a href="#concerts" onClick={closeDropDown}>Concerts</a>
       <a href="#about" onClick={closeDropDown}>About</a>
+      <a href="#history" onClick={closeDropDown}>History</a>
       <a href="#contact" onClick={closeDropDown}>Contact</a>
     </>
   )
@@ -41,15 +43,17 @@ export const Header = () => {
     <header>
       <nav>
         <div className="logo-title-container">
-          <img src={bmmLogo} height="36px" width="36px"
-            alt="Bromley Music Makers Logo" />
+          <picture>
+            <source srcSet={bmmLogoWebp} />
+            <img src={bmmLogo} height="36px" width="36px" alt="Bromley Music Makers Logo" />
+          </picture>
           <p>Bromley Music Makers</p>
         </div>
         <aside className="links">
           {links()}
         </aside>
         {showMenu &&
-          <button className="menu-btn" onClick={() => { setShowDropDown(prev => !prev) }}>
+          <button className="menu-btn" aria-label="Menu Button" onClick={() => { setShowDropDown(prev => !prev) }}>
             {!showDropDown ? <MenuIcon sx={iconSizes} /> : <CloseIcon sx={iconSizes} />}
           </button>
         }

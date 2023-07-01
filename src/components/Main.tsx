@@ -3,8 +3,13 @@ import React from 'react'
 import martin from '../assets/martin_sharpe.jpg'
 import lois from '../assets/lois_jones.jpeg'
 import sara from '../assets/sara_williams_edit.jpg'
+import martinWebp from '../assets/martin_sharpe_resized.webp'
+import loisWebp from '../assets/lois_jones_profile_pic_resized.webp'
+import saraWebp from '../assets/sara_williams_edit_resized.webp'
+
 import { links } from '../links/website-links'
 import { ImageCarousel } from '../components'
+import { words } from '../words/wordContents'
 import '../styles/Main.scss'
 
 export const Main = () => {
@@ -19,16 +24,16 @@ export const Main = () => {
       <br />
       <br />
       <div className="map-container">
-        <iframe loading="lazy" src={links.googleMapSrc} id="bmmMap" />
+        <iframe loading="lazy" src={links.googleMapSrc} id="bmmMap" title="Map of venue location" />
       </div>
-      <p>The annual subscription for most members is <strong>£25</strong>, but the subscription is waived for full-time students at music college. For former students and all other members aged 18-29 the subscription is £5. </p>
+      <p>The standard annual subscription is <strong>£25</strong>, but the subscription is waived for full-time students. For other members aged 18-29 the subscription is £5. </p>
       <p>Visitors are welcome to attend concerts at a charge of <strong>£5</strong>.</p>
       <div className="btn-container">
         <button className="join-bmm-btn">
           <a href={links.joinBMM} target="_blank" style={{ color: 'white' }} rel="noreferrer">Join BMM</a>
         </button>
       </div>
-      <p>Members have the opportunity to hear or take part in performances of classical music in the form of solo items or small ensembles. Music lovers are all welcome, including:</p>
+      <p>Members have the opportunity to hear or take part in performances of classical music in the form of solo items or small ensembles. All music lovers are welcome, including:</p>
       <ul>
         <li>Listening members</li>
         <li>Wind Players</li>
@@ -72,21 +77,34 @@ export const Main = () => {
         <p>{'One of the benefits of joining Bromley Music Makers is finding other like-minded musicians to play and perform with. Many musical partnerships and groups have been formed over the years in this way.'}</p>
         <p>{'Whether you play an instrument, sing or just enjoy listening to live classical music, you will receive a warm welcome at Bromley Music Makers. Musicians of all standards who are able to offer a well-prepared and enjoyable performance are always appreciated and well received. Why not come along to one of our concerts and find out for yourself what a rich and rewarding experience joining us would be.'}</p>
       </div>
+      <div className="history-container" id="history">
+        <h2>History of BMM</h2>
+        <p>{words.historyOfBMM}</p>
+      </div>
       <div className="contact-container" id="contact">
         <h2>Contact</h2>
       </div>
       <p>{'If you would like to know more about Bromley Music Makers please contact the secretary by email, or you may also contact the chairman by telephone. Alternatively, simply come along to our next concert. Visitors are always welcome and you will have the opportunity to speak to the Secretary or one of the other committee members before the concert and during the interval.'}</p>
       <div className="profiles-container">
         <div className="profile-row">
-          <img alt="Martin Sharpe" src={martin} />
+          <picture>
+            <source srcSet={martinWebp} />
+            <img alt="Martin Sharpe" src={martin} width="182px" height="auto" />
+          </picture>
           <p>Chairman, Martin Sharpe - Tel: <a href={links.telMartinSharpe}>{'(020) 8402 1947'}</a></p>
         </div>
         <div className="profile-row">
-          <img alt="Sara Williams" src={sara} />
+          <picture>
+            <source srcSet={saraWebp} />
+            <img alt="Sara Williams" src={sara} width="182px" height="auto"/>
+          </picture>
           <p>Secretary, Sara Williams - Email: <a href={links.emailBMM}>bromleymusicmakers@gmail.com</a></p>
         </div>
         <div className="profile-row">
-          <img alt="Lois Jones" src={lois} />
+          <picture>
+            <source srcSet={loisWebp} />
+            <img alt="Lois Jones" src={lois} width="182px" height="auto"/>
+          </picture>
           <p>Music Secretary, Lois Jones - Email: <a href={links.emailMusicSec}>loisjones958@gmail.com</a></p>
         </div>
       </div>

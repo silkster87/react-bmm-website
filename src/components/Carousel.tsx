@@ -6,6 +6,10 @@ import churchHall from '../assets/church_hall.jpg'
 import piano1 from '../assets/piano_empty_1.jpg'
 import piano2 from '../assets/piano_empty_2.jpg'
 import yoheiMartin from '../assets/yohei_martin.jpg'
+import churchHallWebp from '../assets/church_hall.webp'
+import piano1Webp from '../assets/piano_empty_1.webp'
+import piano2Webp from '../assets/piano_empty_2.webp'
+import yoheiMartinWebp from '../assets/yohei_martin.webp'
 
 import '../styles/Carousel.scss'
 
@@ -25,16 +29,28 @@ export const ImageCarousel = () => {
     <div className="image-carousel">
       <Slider { ...settings }>
         <div>
-          <img src={churchHall} width="800" height="auto" />
+          <picture>
+            <source srcSet={churchHallWebp} />
+            <img src={churchHall} width="800" height="auto" alt="Church Hall" />
+          </picture>
         </div>
         <div>
-          <img src={piano1} width="800" height="auto" />
+          <picture>
+            <source srcSet={piano1Webp} />
+            <img src={piano1} width="800" height="auto" alt="Grand Piano" />
+          </picture>
         </div>
         <div>
-          <img src={piano2} width="800" height="auto" />
+          <picture>
+            <source srcSet={piano2Webp} />
+            <img src={piano2} width="800" height="auto" alt="Grand Piano" />
+          </picture>
         </div>
         <div>
-          <img src={yoheiMartin} width="800" height="auto" />
+          <picture>
+            <source srcSet={yoheiMartinWebp} />
+            <img src={yoheiMartin} width="800" height="auto" alt="Piano and Violin musicians" />
+          </picture>
         </div>
       </Slider>
     </div>
