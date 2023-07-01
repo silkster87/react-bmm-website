@@ -3,6 +3,7 @@ import React from 'react'
 import martin from '../assets/martin_sharpe.jpg'
 import lois from '../assets/lois_jones.jpeg'
 import sara from '../assets/sara_williams_edit.jpg'
+
 import { links } from '../links/website-links'
 import { ImageCarousel } from '../components'
 import { words } from '../words/wordContents'
