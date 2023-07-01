@@ -1,4 +1,18 @@
 export const words = {
+  aboutBMM: 'The membership of Bromley Music Makers consists of both listeners and performers. ' +
+    'We are a large group with diverse musical interests, naturally all sharing a love of classical music.\n\n' +
+    'Pianists who join us have the opportunity to perform as soloists, duettists or accompanists. ' +
+    'Other stringed or wind instrumentalists may perform as soloists or as part of a trio, quartet or ' +
+    'larger chamber ensemble. If you are a singer or instrumentalist and you need an accompanist, ' +
+    'we’ll help you to find one from amongst the membership.\n\n' +
+    'One of the benefits of joining Bromley Music Makers is finding other like-minded musicians to play ' +
+    'and perform with. Many musical partnerships and groups have been formed over the years in this way.\n\n' +
+    'Whether you play an instrument, sing or just enjoy listening to live classical music, ' +
+    'you will receive a warm welcome at Bromley Music Makers. ' +
+    'Musicians of all standards who are able to offer a well-prepared and enjoyable performance are ' +
+    'always appreciated and well received. ' +
+    'Why not come along to one of our concerts and find out for yourself what a rich and rewarding ' +
+    'experience joining us would be.\n\n',
   historyOfBMM: 'The first recorded mention of the Bromley Music Makers was in 1947 when an AGM was held which ' +
   'approved the club\'s name and also its aim of holding regular concerts by members for members; or ' +
   'in other words \'to make our own music\'. There are no formal records of any activities before that date ' +
