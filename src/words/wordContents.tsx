@@ -1,4 +1,4 @@
-export const words = {
+export const words = Object.freeze({
   aboutBMM: 'The membership of Bromley Music Makers consists of both listeners and performers. ' +
     'We are a large group with diverse musical interests, naturally all sharing a love of classical music.\n\n' +
     'Pianists who join us have the opportunity to perform as soloists, duettists or accompanists. ' +
@@ -68,5 +68,9 @@ export const words = {
   'professional success. These include the clarinettist Emma Johnson (the 1984 BBC Young Musician) ' +
   'who grew up in Bromley and performed at one of our regular concerts while still at school, and the ' +
   'singer Elizabeth Llewellyn who, as a member of the club, performed at our concerts on several ' +
-  'occasions before going on to gain huge critical acclaim on the international opera stage.'
-}
+  'occasions before going on to gain huge critical acclaim on the international opera stage.',
+  contactBMM: 'If you would like to know more about Bromley Music Makers please contact the secretary by email, ' +
+    'or you may also contact the chairman by telephone. Alternatively, simply come along to our next concert. ' +
+    'Visitors are always welcome and you will have the opportunity to speak to the Secretary or one of the other ' +
+    'committee members before the concert and during the interval.'
+})
