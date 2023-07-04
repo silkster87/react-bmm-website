@@ -30,25 +30,25 @@ export const ImageCarousel = () => {
       <Slider { ...settings }>
         <div>
           <picture>
-            <source srcSet={churchHallWebp} />
+            <source srcSet={churchHallWebp} width="800" height="auto" />
             <img src={churchHall} width="800" height="auto" alt="Church Hall" />
           </picture>
         </div>
         <div>
           <picture>
-            <source srcSet={piano1Webp} />
+            <source srcSet={piano1Webp} width="800" height="auto" />
             <img src={piano1} width="800" height="auto" alt="Grand Piano" />
           </picture>
         </div>
         <div>
           <picture>
-            <source srcSet={piano2Webp} />
+            <source srcSet={piano2Webp} width="800" height="auto"/>
             <img src={piano2} width="800" height="auto" alt="Grand Piano" />
           </picture>
         </div>
         <div>
           <picture>
-            <source srcSet={yoheiMartinWebp} />
+            <source srcSet={yoheiMartinWebp} width="800" height="auto"/>
             <img src={yoheiMartin} width="800" height="auto" alt="Piano and Violin musicians" />
           </picture>
         </div>
