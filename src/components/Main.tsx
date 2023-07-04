@@ -23,9 +23,9 @@ export const Main = () => {
       <strong>Christ Church, Tudor Way, Petts Wood, Kent, BR5 1LH</strong>
       <br />
       <br />
-      <div className="map-container">
+      <section className="map-container">
         <iframe loading="lazy" src={links.googleMapSrc} id="bmmMap" title="Map of venue location" />
-      </div>
+      </section>
       <p>The standard annual subscription is <strong>£25</strong>, but the subscription is waived for full-time students. For other members aged 18-29 the subscription is £5. </p>
       <p>Visitors are welcome to attend concerts at a charge of <strong>£5</strong>.</p>
       <div className="btn-container">
@@ -42,7 +42,7 @@ export const Main = () => {
         <li>Pianists</li>
       </ul>
       <ImageCarousel />
-      <div className="concerts-container">
+      <section className="concerts-container">
         <h2 id="concerts">
           <span>CONCERTS - 79th SEASON</span>
         </h2>
@@ -50,7 +50,7 @@ export const Main = () => {
         <h2>2023</h2>
         <p>
         Saturday September 23rd<br />
-        Saturday October 28rd<br />
+        Saturday October 28th<br />
         Saturday November 25th<br />
         Saturday December 16th
         </p>
@@ -69,20 +69,20 @@ export const Main = () => {
             <a href={links.exampleProgramme} target="_blank" rel="noreferrer">Download</a>
           </button>
         </div>
-      </div>
-      <div className="about-container" id="about">
+      </section>
+      <section className="about-container" id="about">
         <h2>About BMM</h2>
         <p>{words.aboutBMM}</p>
-      </div>
-      <div className="history-container" id="history">
+      </section>
+      <section className="history-container" id="history">
         <h2>History of BMM</h2>
         <p>{words.historyOfBMM}</p>
-      </div>
-      <div className="contact-container" id="contact">
+      </section>
+      <section className="contact-container" id="contact">
         <h2>Contact</h2>
-      </div>
-      <p>{'If you would like to know more about Bromley Music Makers please contact the secretary by email, or you may also contact the chairman by telephone. Alternatively, simply come along to our next concert. Visitors are always welcome and you will have the opportunity to speak to the Secretary or one of the other committee members before the concert and during the interval.'}</p>
-      <div className="profiles-container">
+      </section>
+      <p>{words.contactBMM}</p>
+      <section className="profiles-container">
         <div className="profile-row">
           <picture>
             <source srcSet={martinWebp} />
@@ -104,7 +104,7 @@ export const Main = () => {
           </picture>
           <p>Music Secretary, Lois Jones - Email: <a href={links.emailMusicSec}>loisjones958@gmail.com</a></p>
         </div>
-      </div>
+      </section>
     </main>
   )
 }
