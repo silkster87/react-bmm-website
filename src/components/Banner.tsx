@@ -16,8 +16,9 @@ export const Banner = () => {
       <div className="banner-title">
         <p>Bromley Music Makers</p>
         <p className="smallprint">79th Season</p>
+        <p className="smallprint">Next Concert:</p>
         <p className="smallprint">
-          {'Next Concert: Saturday 23rd September 2023 (3-5pm)'}
+          <strong>Saturday 23rd September 2023 (3-5pm)</strong>
         </p>
       </div>
     </div>
