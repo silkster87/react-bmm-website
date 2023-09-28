@@ -2,14 +2,10 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import churchHall from '../assets/church_hall.jpg'
-import piano1 from '../assets/piano_empty_1.jpg'
-import piano2 from '../assets/piano_empty_2.jpg'
 import yoheiMartin from '../assets/yohei_martin.jpg'
-import churchHallWebp from '../assets/church_hall.webp'
-import piano1Webp from '../assets/piano_empty_1.webp'
-import piano2Webp from '../assets/piano_empty_2.webp'
 import yoheiMartinWebp from '../assets/yohei_martin.webp'
+import trioPic1 from '../assets/IMG_1566_resized.webp'
+import quintetPic1 from '../assets/IMG_1573_resized.webp'
 
 import '../styles/Carousel.scss'
 
@@ -30,20 +26,12 @@ export const ImageCarousel = () => {
       <Slider { ...settings }>
         <div>
           <picture>
-            <source srcSet={churchHallWebp} width="800" height="auto" />
-            <img src={churchHall} width="800" height="auto" alt="Church Hall" />
+            <img src={trioPic1} width="800" height="600" alt="trio of musicians"/>
           </picture>
         </div>
         <div>
           <picture>
-            <source srcSet={piano1Webp} width="800" height="auto" />
-            <img src={piano1} width="800" height="auto" alt="Grand Piano" />
-          </picture>
-        </div>
-        <div>
-          <picture>
-            <source srcSet={piano2Webp} width="800" height="auto"/>
-            <img src={piano2} width="800" height="auto" alt="Grand Piano" />
+            <img src={quintetPic1} width="800" height="600" alt="Quintet of musicians" />
           </picture>
         </div>
         <div>
