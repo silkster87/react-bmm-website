@@ -97,6 +97,23 @@ main {
   }
 }
 
+.video-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  
+  iframe {
+    margin-top: 16px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    aspect-ratio: 16/9;
+    height: auto;
+  }
+}
+
 .profile-row {
   display: flex;
   flex-direction: row;
