@@ -42,6 +42,10 @@ export const Main = () => {
         <li>Pianists</li>
       </ul>
       <ImageCarousel />
+      <section className="video-container">
+        <iframe src="https://www.youtube.com/embed/ck2XZwmpczk"></iframe>
+        <iframe src="https://www.youtube.com/embed/tLOFX9uopD8"></iframe>
+      </section>
       <section className="concerts-container">
         <h2 id="concerts">
           <span>CONCERTS - 79th SEASON</span>
