@@ -44,6 +44,9 @@ export const Main = () => {
       <ImageCarousel />
       <section className="video-container">
         <iframe src="https://www.youtube.com/embed/ck2XZwmpczk"></iframe>
+        <p>Ayako Yamazaki (violin), Lois Jones (cello) and Michelle Mutian Xu Watkins (piano) performing selected works from Piazzolla&apos;s
+          <em> &quot;Cuatro Estaciones Porteñas&quot;.</em> (23rd September 2023 concert)
+        </p>
         <iframe src="https://www.youtube.com/embed/tLOFX9uopD8"></iframe>
       </section>
       <section className="concerts-container">
