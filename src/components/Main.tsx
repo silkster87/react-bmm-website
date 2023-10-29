@@ -15,13 +15,18 @@ import '../styles/Main.scss'
 export const Main = () => {
   return (
     <main>
-      <h2>Welcome to BMM</h2>
-      <p>
-        Bromley Music Makers (BMM) hold monthly concerts of live classical music with the aim of giving
-        pleasure to those who enjoy performing or listening to music. Our concerts are held at:</p>
-      <br />
-      <strong>Christ Church, Tudor Way, Petts Wood, Kent, BR5 1LH</strong>
-      <br />
+      <h2>Welcome to Bromley Music Makers</h2>
+      <p>Do you love classical music and want to hear live concerts in your local area?
+        Are you a classical musician looking for opportunities to perform?
+        Do you want to meet other classical musicians with whom to play and collaborate?
+      </p>
+      <p>Why not join Bromley Music Makers?</p>
+      <p>We present varied, interesting and enjoyable concerts every month, with our members performing as instrumentalists or singers.</p>
+      <p>It’s very easy to join – just fill in our online form.  Or if you just want to find out more, come to one of our concerts as a listener for just £5.
+        If you then decide to join within the next month, we’ll deduct that from your first year’s subscription.</p>
+      <p>We hold our concerts in a pleasant venue with a lovely acoustic and an excellent grand piano:&nbsp;
+        <strong><a href={links.googleMapShareLink} target="_blank" rel="noreferrer" style={{ textDecoration: 'underline' }}>Christ Church URC in Petts Wood.</a> </strong>
+        It is a short walk from the train station and there is both a car park and local on-street parking.</p>
       <br />
       <section className="map-container">
         <iframe loading="lazy" src={links.googleMapSrc} id="bmmMap" title="Map of venue location" />
@@ -33,14 +38,7 @@ export const Main = () => {
           <a href={links.joinBMM} target="_blank" style={{ color: 'white' }} rel="noreferrer">Join BMM</a>
         </button>
       </div>
-      <p>Members have the opportunity to hear or take part in performances of classical music in the form of solo items or small ensembles. All music lovers are welcome, including:</p>
-      <ul>
-        <li>Listening members</li>
-        <li>Wind Players</li>
-        <li>String Players</li>
-        <li>Singers</li>
-        <li>Pianists</li>
-      </ul>
+      <p>Join us to perform classical music or just listen. All instruments and voice types are welcome but you must be over 18.</p>
       <ImageCarousel />
       <section className="video-container">
         <iframe src="https://www.youtube.com/embed/ck2XZwmpczk"></iframe>
