@@ -3,6 +3,7 @@ import React from 'react'
 import logo from '../assets/bmm_logo_resized_png.png'
 import logoWebp from '../assets/bmm_logo_resized.webp'
 import '../styles/Banner.scss'
+import { links } from '../links/website-links'
 
 export const Banner = () => {
   return (
@@ -18,8 +19,13 @@ export const Banner = () => {
         <p className="smallprint">79th Season</p>
         <p className="smallprint">Next Concert:</p>
         <p className="smallprint">
-          <strong>Saturday 28th October 2023 (3-5pm)</strong>
+          <strong>Saturday 25th November 2023 (3-5pm)</strong>
         </p>
+        <div className="btn-container">
+          <button className="join-bmm-btn">
+            <a href={links.joinBMM} target="_blank" style={{ color: 'white' }} rel="noreferrer">Join BMM</a>
+          </button>
+        </div>
       </div>
     </div>
   )
