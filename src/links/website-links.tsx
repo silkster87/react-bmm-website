@@ -5,5 +5,6 @@ export const links = Object.freeze({
   telMartinSharpe: 'tel:+4402084021947',
   emailBMM: 'mailto:bromleymusicmakers@gmail.com',
   emailMusicSec: 'mailto:loisjones958@gmail.com',
-  emailSilky: 'mailto:silky.ng@gmail.com'
+  emailSilky: 'mailto:silky.ng@gmail.com',
+  googleMapShareLink: 'https://maps.app.goo.gl/g4Vp1p3S4mjQ276B8'
 })
