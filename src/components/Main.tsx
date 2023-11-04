@@ -41,11 +41,13 @@ export const Main = () => {
       <p>Join us to perform classical music or just listen. All instruments and voice types are welcome but you must be over 18.</p>
       <ImageCarousel />
       <section className="video-container">
-        <iframe src="https://www.youtube.com/embed/ck2XZwmpczk"></iframe>
+        <iframe loading="lazy" src={links.trioYTPart1}></iframe>
         <p>Ayako Yamazaki (violin), Lois Jones (cello) and Michelle Mutian Xu Watkins (piano) performing selected works from Piazzolla&apos;s
           <em> &quot;Cuatro Estaciones Porteñas&quot;.</em> (23rd September 2023 concert)
         </p>
-        <iframe src="https://www.youtube.com/embed/tLOFX9uopD8"></iframe>
+        <iframe loading="lazy" src={links.trioYTPart2}></iframe>
+        <p>One of our soprano members: Joanna Whalley. Performing &quot;Lied der Lulu&quot; by Alban Berg.</p>
+        <iframe loading="lazy" src={links.joannaWhalleyYT}></iframe>
       </section>
       <section className="concerts-container">
         <h2 id="concerts">
