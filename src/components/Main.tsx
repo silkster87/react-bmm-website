@@ -23,7 +23,7 @@ export const Main = () => {
       <p>Why not join Bromley Music Makers?</p>
       <p>We present varied, interesting and enjoyable concerts every month, with our members performing as instrumentalists or singers.</p>
       <p>It’s very easy to join – just fill in our online form.  Or if you just want to find out more, come to one of our concerts as a listener for just £5.
-        If you then decide to join within the next month, we’ll deduct that from your first year’s subscription.</p>
+        If you then decide to join, we’ll deduct that from your first year’s subscription.</p>
       <p>We hold our concerts in a pleasant venue with a lovely acoustic and an excellent grand piano:&nbsp;
         <strong><a href={links.googleMapShareLink} target="_blank" rel="noreferrer" style={{ textDecoration: 'underline' }}>Christ Church URC in Petts Wood.</a> </strong>
         It is a short walk from the train station and there is both a car park and local on-street parking.</p>
