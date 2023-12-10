@@ -46,7 +46,7 @@ export const Main = () => {
           <em> &quot;Cuatro Estaciones Porteñas&quot;.</em> (23rd September 2023 concert)
         </p>
         <iframe loading="lazy" src={links.trioYTPart2}></iframe>
-        <p>One of our soprano members: Joanna Whalley. Performing &quot;Lied der Lulu&quot; by Alban Berg.</p>
+        <p>One of our soprano members: Joanna Whalley. Performing &quot;Quel guardo il Cavaliere&quot; by Gaetano Donizetti.</p>
         <iframe loading="lazy" src={links.joannaWhalleyYT}></iframe>
       </section>
       <section className="concerts-container">
