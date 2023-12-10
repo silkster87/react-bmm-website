@@ -7,7 +7,7 @@ export const links = Object.freeze({
   emailMusicSec: 'mailto:loisjones958@gmail.com',
   emailSilky: 'mailto:silky.ng@gmail.com',
   googleMapShareLink: 'https://maps.app.goo.gl/g4Vp1p3S4mjQ276B8',
-  joannaWhalleyYT: 'https://www.youtube.com/embed/8dgsHKAizko?si=cZeY5XMPnpC8iHU9',
+  joannaWhalleyYT: 'https://www.youtube.com/embed/G23ldo0uQjo?si=IbEMzq1bHnwHyFAL',
   trioYTPart1: 'https://www.youtube.com/embed/ck2XZwmpczk',
   trioYTPart2: 'https://www.youtube.com/embed/tLOFX9uopD8'
 })
