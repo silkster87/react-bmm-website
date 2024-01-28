@@ -19,7 +19,7 @@ export const Banner = () => {
         <p className="smallprint">79th Season</p>
         <p className="smallprint">Next Concert:</p>
         <p className="smallprint">
-          <strong>Saturday 27th January (3-5pm)</strong>
+          <strong>Saturday 24th February (3-5pm)</strong>
         </p>
         <div className="btn-container">
           <button className="join-bmm-btn">
