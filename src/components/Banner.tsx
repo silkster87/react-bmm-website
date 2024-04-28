@@ -11,7 +11,12 @@ export const Banner = () => {
       <div className="bmm-logo-container">
         <picture>
           <source srcSet={logoWebp} />
-          <img className="bmm-logo" src={logo} alt="Bromley Music Makers Logo" height="90px" width="auto"/>
+          <img
+            className="bmm-logo"
+            src={logo}
+            alt="Bromley Music Makers Logo"
+            height="90px"
+            width="auto"/>
         </picture>
       </div>
       <div className="banner-title">
@@ -19,11 +24,17 @@ export const Banner = () => {
         <p className="smallprint">79th Season</p>
         <p className="smallprint">Next Concert:</p>
         <p className="smallprint">
-          <strong>Saturday 27th April (3-5pm)</strong>
+          <strong>Saturday 25th May (3-5pm)</strong>
         </p>
         <div className="btn-container">
           <button className="join-bmm-btn">
-            <a href={links.joinBMM} target="_blank" style={{ color: 'white' }} rel="noreferrer">Join BMM</a>
+            <a
+              href={links.joinBMM}
+              target="_blank"
+              style={{ color: 'white' }}
+              rel="noreferrer">
+                Join BMM
+            </a>
           </button>
         </div>
       </div>
