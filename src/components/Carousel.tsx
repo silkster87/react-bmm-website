@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import johnAndPeter from '../assets/IMG_2910.webp'
 import yoheiMartin from '../assets/yohei_martin.jpg'
 import yoheiMartinWebp from '../assets/yohei_martin.webp'
 import trioPic1 from '../assets/IMG_1566_resized.webp'
@@ -26,6 +27,11 @@ export const ImageCarousel = () => {
   return (
     <div className="image-carousel">
       <Slider { ...settings }>
+        <div>
+          <picture>
+            <img src={johnAndPeter} alt="John and Peter duet" width="800" height="600"/>
+          </picture>
+        </div>
         <div>
           <picture>
             <img src={trioPic2} width="800" height="600" alt="trio of musicians"/>
