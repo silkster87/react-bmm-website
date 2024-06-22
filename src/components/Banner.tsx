@@ -21,10 +21,10 @@ export const Banner = () => {
       </div>
       <div className="banner-title">
         <p>Bromley Music Makers</p>
-        <p className="smallprint">79th Season</p>
+        <p className="smallprint">80th Season</p>
         <p className="smallprint">Next Concert:</p>
         <p className="smallprint">
-          <strong>Saturday 22nd June (2:45pm)</strong>
+          <strong>Saturday 28th September (3pm)</strong>
         </p>
         <div className="btn-container">
           <button className="join-bmm-btn">
