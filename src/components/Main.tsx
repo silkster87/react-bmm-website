@@ -58,7 +58,7 @@ export const Main = () => {
         <p>
         Saturday September 28th<br />
         Saturday October 12th (Special Family Concert 3-4pm)<br />
-        Saturday October 26th
+        Saturday October 26th<br />
         Saturday November 23rd<br />
         Saturday December 14th
         </p>
