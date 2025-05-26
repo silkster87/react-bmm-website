@@ -55,7 +55,7 @@ export const Banner = () => {
         <p className="smallprint">80th Season</p>
         <p className="smallprint">Next Concert:</p>
         <p className="smallprint">
-          <strong>{`${nextConcertDate} (3pm)`}</strong>
+          <strong>{`${nextConcertDate} (2:45pm)`}</strong>
         </p>
         <div className="btn-container">
           <button className="join-bmm-btn">
