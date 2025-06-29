@@ -20,7 +20,7 @@ export const Banner = () => {
       </div>
       <div className="banner-title">
         <p>Bromley Music Makers</p>
-        <p className="smallprint">80th Season</p>
+        <p className="smallprint">81st Season</p>
         <p className="smallprint">Next Concert:</p>
         <p className="smallprint">
           <strong>Saturday 27th September</strong>
