@@ -51,25 +51,24 @@ export const Main = () => {
       </section>
       <section className="concerts-container">
         <h2 id="concerts">
-          <span>CONCERTS - 80th SEASON</span>
+          <span>CONCERTS - 81st SEASON</span>
         </h2>
         <p>{'All concerts 3-5pm unless stated'}</p>
-        <h2>2024</h2>
-        <p>
-        Saturday September 28th<br />
-        Saturday October 12th (Special Family Concert 3-4pm)<br />
-        Saturday October 26th<br />
-        Saturday November 23rd<br />
-        Saturday December 14th
-        </p>
         <h2>2025</h2>
         <p>
-        Saturday January 25th<br />
-        Saturday February 22nd<br />
-        Saturday March 22nd<br />
-        Saturday April 26th<br />
-        Saturday May 24th<br />
-        Saturday June 28th (2:45 pm)<br />
+        Saturday September 27th<br />
+        Saturday October 25th<br />
+        Saturday November 22nd<br />
+        Saturday December 20th
+        </p>
+        <h2>2026</h2>
+        <p>
+        Saturday January 24th<br />
+        Saturday February 28th<br />
+        Saturday March 26th<br />
+        Saturday April 25th<br />
+        Saturday May 23rd<br />
+        Saturday June 27th (2:45 pm)<br />
         </p>
         <p>An example of a typical programme is available to download here: </p>
         <div className="btn-container">

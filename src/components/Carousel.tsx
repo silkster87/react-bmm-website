@@ -9,6 +9,7 @@ import trioPic1 from '../assets/IMG_1566_resized.webp'
 import quintetPic1 from '../assets/IMG_1573_resized.webp'
 import trioPic2 from '../assets/IMG_2332.webp'
 import flutePlayer from '../assets/IMG_2336.webp'
+import bmmCake from '../assets/bmm_80th_cake.webp'
 
 import '../styles/Carousel.scss'
 
@@ -27,6 +28,11 @@ export const ImageCarousel = () => {
   return (
     <div className="image-carousel">
       <Slider { ...settings }>
+        <div>
+          <picture>
+            <img src={bmmCake} alt="Bromley Music Makers celebration cake" width="800" height="auto"/>
+          </picture>
+        </div>
         <div>
           <picture>
             <img src={johnAndPeter} alt="John and Peter duet" width="800" height="600"/>
