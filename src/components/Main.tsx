@@ -65,7 +65,7 @@ export const Main = () => {
         <p>
         Saturday January 24th<br />
         Saturday February 28th<br />
-        Saturday March 26th<br />
+        Saturday March 28th<br />
         Saturday April 25th<br />
         Saturday May 23rd<br />
         Saturday June 27th (2:45 pm)<br />
