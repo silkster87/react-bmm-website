@@ -54,17 +54,13 @@ export const Banner = () => {
         <p className="smallprint">81st Season</p>
         <p className="smallprint">Next Concert:</p>
         <p className="smallprint">
-          <strong>{`${nextConcertDate}*`}</strong>
+          <strong>{nextConcertDate}</strong>
         </p>
         <div style={{
           textAlign: 'center',
           paddingBottom: '16px',
           fontSize: '18px'
         }}>
-          <a href="https://maps.app.goo.gl/4rqXFtmhBPe6Zcf37"
-            className="smallprint">
-            *Held at St Francis of Assisi, Petts Wood
-          </a>
         </div>
         <div className="btn-container">
           <button className="join-bmm-btn">
