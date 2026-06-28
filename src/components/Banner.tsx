@@ -19,7 +19,8 @@ export const Banner = () => {
     new Date('2026-03-28'),
     new Date('2026-04-25'),
     new Date('2026-05-23'),
-    new Date('2026-06-27')
+    new Date('2026-06-27'),
+    new Date('2026-09-26')
   ]
 
   useEffect(() => {
