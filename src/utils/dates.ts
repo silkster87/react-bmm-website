@@ -3,17 +3,16 @@ import { format } from 'date-fns'
 const ONE_DAY_MILLISECONDS = 24 * 60 * 60 * 1000
 
 const concertDates = [
-  new Date('2025-09-27'),
-  new Date('2025-10-25'),
-  new Date('2025-11-22'),
-  new Date('2025-12-20'),
-  new Date('2026-01-24'),
-  new Date('2026-02-28'),
-  new Date('2026-03-28'),
-  new Date('2026-04-25'),
-  new Date('2026-05-23'),
-  new Date('2026-06-27'),
-  new Date('2026-09-26')
+  new Date('2026-09-26'),
+  new Date('2026-10-24'),
+  new Date('2026-11-28'),
+  new Date('2026-12-19'),
+  new Date('2027-01-23'),
+  new Date('2027-02-20'),
+  new Date('2027-03-20'),
+  new Date('2027-04-24'),
+  new Date('2027-05-22'),
+  new Date('2027-06-26')
 ]
 export const nextConcertDate = () => {
   const currentDateTime = new Date().getTime()

@@ -54,21 +54,21 @@ export const Main = () => {
           <span>CONCERTS - 81st SEASON</span>
         </h2>
         <p>{'All concerts 3-5pm unless stated'}</p>
-        <h2>2025</h2>
-        <p>
-        Saturday September 27th<br />
-        Saturday October 25th<br />
-        Saturday November 22nd<br />
-        Saturday December 20th
-        </p>
         <h2>2026</h2>
         <p>
-        Saturday January 24th<br />
-        Saturday February 28th<br />
-        Saturday March 28th<br />
-        Saturday April 25th<br />
-        Saturday May 23rd<br />
-        Saturday June 27th (2:45 pm)<br />
+        Saturday September 26th<br />
+        Saturday October 24th<br />
+        Saturday November 28th<br />
+        Saturday December 19th
+        </p>
+        <h2>2027</h2>
+        <p>
+        Saturday January 23rd<br />
+        Saturday February 20th<br />
+        Saturday March 20th<br />
+        Saturday April 24th<br />
+        Saturday May 22nd<br />
+        Saturday June 26th (2:45 pm)<br />
         </p>
         <p>An example of a typical programme is available to download here: </p>
         <div className="btn-container">
