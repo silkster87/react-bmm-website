@@ -1,6 +1,24 @@
-import { format } from 'date-fns'
-
 const ONE_DAY_MILLISECONDS = 24 * 60 * 60 * 1000
+const monthFormatter = new Intl.DateTimeFormat('en-GB', {
+  month: 'long',
+  timeZone: 'UTC'
+})
+
+const getOrdinalSuffix = (day: number) => {
+  const lastTwoDigits = day % 100
+  if (lastTwoDigits >= 11 && lastTwoDigits <= 13) return 'th'
+
+  switch (day % 10) {
+  case 1:
+    return 'st'
+  case 2:
+    return 'nd'
+  case 3:
+    return 'rd'
+  default:
+    return 'th'
+  }
+}
 
 const concertDates = [
   new Date('2026-09-26'),
@@ -27,5 +45,10 @@ export const nextConcertDate = () => {
 
   if (filteredDates.length === 0) return 'TBC'
 
-  return format(filteredDates[0], 'iiii do MMMM') || ''
+  const nextDate = filteredDates[0]
+  const day = nextDate.getUTCDate()
+  const month = monthFormatter.format(nextDate)
+  const year = nextDate.getUTCFullYear()
+
+  return `${day}${getOrdinalSuffix(day)} ${month} ${year}`
 }
