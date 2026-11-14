@@ -34,18 +34,7 @@ const concertDates = [
 ]
 export const nextConcertDate = () => {
   const currentDateTime = new Date().getTime()
-
-  let filteredDates = [...concertDates]
-
-  for (let i = 0; i < concertDates.length; i++) {
-    if (currentDateTime - concertDates[i].getTime() > ONE_DAY_MILLISECONDS) {
-      filteredDates = filteredDates.filter(date => date.getTime() !== concertDates[i].getTime())
-    }
-  }
-
-  if (filteredDates.length === 0) return 'TBC'
-
-  const nextDate = filteredDates[0]
+  const nextDate = concertDates.find(date => currentDateTime - date.getTime() <= ONE_DAY_MILLISECONDS) ?? concertDates[concertDates.length - 1]
   const day = nextDate.getUTCDate()
   const month = monthFormatter.format(nextDate)
   const year = nextDate.getUTCFullYear()
